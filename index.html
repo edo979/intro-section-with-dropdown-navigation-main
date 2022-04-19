@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav_logo">
+        <img src="images/logo.svg" alt="Snap" />
+      </div>
 
-  Features
-  Company
-  Careers
-  About
+      <div class="nav_toggler">
+        <button class="nav_open">
+          <img src="images/icon-menu.svg" alt="" />
+        </button>
+        <button class="nav_close">
+          <img src="images/icon-close-menu.svg" alt="" />
+        </button>
+      </div>
 
-  Login
-  Register
+      <ul class="nav_list">
+        <li class="nav_list-item">
+          <div class="dropdown">
+            <p class="dropdown_title">Features</p>
+            <ul class="dropdown_list">
+              <li>Todo List <img src="images/icon-todo.svg" alt="" /></li>
+              <li>Calendar <img src="images/icon-calendar.svg" alt="" /></li>
+              <li>Reminders <img src="images/icon-reminders.svg" alt="" /></li>
+              <li>Planning <img src="images/icon-planning.svg" alt="" /></li>
+            </ul>
+          </div>
+        </li>
 
-  Make remote work
+        <li class="nav_list-item">
+          <div class="dropdown">
+            <p class="dropdown_title">Company</p>
+            <ul class="dropdown_list">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </li>
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+        <li class="nav_list-item">Careers</li>
+        <li class="nav_list-item">About</li>
+        <li class="nav_list-item">Login</li>
+        <li class="nav_list-item">Register</li>
+      </ul>
+    </nav>
+    <section class="intro">
+      <img src="images/image-hero-mobile.png" alt="" class="intro_img" />
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <button class="btn btn-primary">Learn more</button>
+      <div class="flex">
+        <img src="images/client-databiz.svg" alt="Databiz" />
+        <img src="images/client-audiophile.svg" alt="Audiophile" />
+        <img src="images/client-meet.svg" alt="Meet" />
+        <img src="images/client-maker.svg" alt="Maker" />
+      </div>
+    </section>
 
-  Learn more
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/edo979">edo979</a>.
+    </div>
+  </body>
 </html>
