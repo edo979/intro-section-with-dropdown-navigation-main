@@ -20,19 +20,10 @@
   }
 
   &_list {
-    display: none; // show flex in &.colapsed
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    inset: 0;
-
-    padding: 85px 25px;
-    margin: 0 0 0 33vw;
-
+    display: none;
     list-style: none;
-
-    background-color: $Almost-White;
+    margin: 0;
+    padding: 0;
 
     &-item {
       color: $Medium-Gray;
@@ -51,6 +42,16 @@
       display: flex;
       flex-direction: column;
       gap: 15px;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      inset: 0;
+
+      padding: 85px 25px;
+      margin: 0 0 0 33vw;
+
+      background-color: $Almost-White;
     }
 
     &::before {
