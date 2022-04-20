@@ -93,9 +93,31 @@
   &_list {
     display: none;
 
-    margin: 0;
+    margin: 30px 0 0;
     padding: 0;
 
     list-style: none;
+
+    li {
+      display: flex;
+      align-items: start;
+      gap: 20px;
+
+      line-height: 1;
+
+      img {
+        width: 17px;
+      }
+    }
+
+    li + li {
+      margin-top: 20px;
+    }
+  }
+
+  &.colapsed {
+    .dropdown_list {
+      display: block;
+    }
   }
 }
