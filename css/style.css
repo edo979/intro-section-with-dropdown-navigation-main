@@ -80,11 +80,36 @@ select {
 }
 
 html {
-  font-size: var(--fs-400);
+  font-size: 18px;
 }
 
 body {
   font-family: "Epilogue", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.nav_list {
+  display: none;
+}
+.nav_open, .nav_close {
+  border: none;
+  background-color: transparent;
+}
+.nav_close {
+  display: none;
+}
+
+.container {
+  margin-inline: auto;
+  width: max(343px, 87vw);
+}
+
+.nav {
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  &_list {
+    display: none;
+  }
+
+  &_open,
+  &_close {
+    border: none;
+    background-color: transparent;
+  }
+
+  &_close {
+    display: none;
+  }
+}
