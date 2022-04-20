@@ -1,5 +1,30 @@
 .intro {
   &_text {
     text-align: center;
+
+    > * + * {
+      margin-top: 30px;
+    }
   }
+
+  .flex {
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+.btn {
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $Almost-Black;
+  color: $Almost-White;
+  font-size: var(--fs-400);
 }

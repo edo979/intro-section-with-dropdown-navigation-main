@@ -3,7 +3,7 @@
 :root {
   --fs-300: 0.75rem;
   --fs-400: 0.9rem;
-  --fs-300: 1.05rem;
+  --fs-500: 1.05rem;
 }
 
 html {
@@ -16,6 +16,7 @@ body {
 
 h1 {
   font-size: 1.95rem;
+  line-height: 1;
 }
 
 p {
