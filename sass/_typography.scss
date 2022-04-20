@@ -13,3 +13,12 @@ html {
 body {
   font-family: 'Epilogue', sans-serif;
 }
+
+h1 {
+  font-size: 1.95rem;
+}
+
+p {
+  font-size: var(--fs-400);
+  color: $Medium-Gray;
+}
