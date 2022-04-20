@@ -103,13 +103,30 @@ body {
   display: none;
 }
 
+.intro_text {
+  text-align: center;
+}
+
 .container {
   margin-inline: auto;
   width: max(343px, 87vw);
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 .nav {
   margin-top: 25px;
+}
+
+.intro_img {
+  margin-top: 30px;
+}
+.intro_text,
+.intro .flex {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

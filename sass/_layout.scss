@@ -6,6 +6,21 @@
   width: max(343px, 87vw);
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 .nav {
   margin-top: 25px;
+}
+
+.intro {
+  &_img {
+    margin-top: 30px;
+  }
+  &_text,
+  .flex {
+    margin-top: 50px;
+  }
 }
