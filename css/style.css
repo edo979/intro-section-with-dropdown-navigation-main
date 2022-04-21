@@ -221,7 +221,8 @@ p {
   font-size: var(--fs-400);
 }
 
-.container {
+.container,
+.sm\:container {
   margin-inline: auto;
   width: max(343px, 87vw);
 }
@@ -251,7 +252,34 @@ p {
   }
 
   .container {
-    width: min(1400px, 91vw);
+    width: min(1360px, 84vw);
+  }
+
+  .md\:grid-container {
+    max-width: 1440px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .sm\:container {
+    width: auto;
+  }
+
+  .intro {
+    margin-top: 65px;
+  }
+  .intro_img {
+    margin: 0;
+    grid-row: 1/2;
+    grid-column: 8/12;
+  }
+  .intro_text {
+    grid-column: 2/7;
+    align-self: end;
+  }
+  .intro .flex {
+    margin-bottom: 0;
   }
 
   .nav {
@@ -307,6 +335,14 @@ p {
   .dropdown_list.left-0 {
     left: 0;
     right: auto;
+  }
+
+  .intro_img {
+    height: 640px;
+    background-image: url(../images/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 

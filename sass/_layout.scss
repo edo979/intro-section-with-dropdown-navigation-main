@@ -1,7 +1,8 @@
 @import 'components/nav';
 @import 'components/intro';
 
-.container {
+.container,
+.sm\:container {
   margin-inline: auto;
   width: max(343px, 87vw);
 }
