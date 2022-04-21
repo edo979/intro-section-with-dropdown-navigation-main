@@ -287,7 +287,7 @@ p {
   }
 
   .container {
-    width: min(1360px, 84vw);
+    width: min(1400px, 90vw);
   }
 
   .md\:grid-container {
@@ -400,6 +400,9 @@ p {
   .btn-primary {
     font-size: var(--fs-500);
   }
+}
+body {
+  background-color: #fafafa;
 }
 
 /*# sourceMappingURL=style.css.map */
