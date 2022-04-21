@@ -196,6 +196,14 @@ p {
   display: block;
 }
 
+.dropdown_title:focus, .dropdown_title:hover,
+.dropdown_list li:focus,
+.dropdown_list li:hover,
+.nav-link:focus,
+.nav-link:hover {
+  color: #141414;
+}
+
 .intro_img {
   height: max(280px, 70vw);
   background-image: url(../images/image-hero-mobile.png);
@@ -227,11 +235,20 @@ p {
   color: #fafafa;
   font-size: var(--fs-400);
 }
+.btn-primary:hover, .btn-primary:focus {
+  color: #141414;
+  outline: 1px solid #141414;
+  background-color: transparent;
+}
 
 .btn-secondary {
   padding: 12px 20px;
-  border: 1px solid #141414;
+  border: 1px solid dimgray;
   line-height: 1;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+  color: #141414;
+  border-color: #141414;
 }
 
 .container,

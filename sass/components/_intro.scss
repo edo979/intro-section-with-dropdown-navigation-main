@@ -35,10 +35,23 @@
   background-color: $Almost-Black;
   color: $Almost-White;
   font-size: var(--fs-400);
+
+  &:hover,
+  &:focus {
+    color: $Almost-Black;
+    outline: 1px solid $Almost-Black;
+    background-color: transparent;
+  }
 }
 
 .btn-secondary {
   padding: 12px 20px;
-  border: 1px solid $Almost-Black;
+  border: 1px solid $Medium-Gray;
   line-height: 1;
+
+  &:hover,
+  &:focus {
+    color: $Almost-Black;
+    border-color: $Almost-Black;
+  }
 }

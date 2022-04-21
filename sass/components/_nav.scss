@@ -131,3 +131,12 @@
     }
   }
 }
+
+.dropdown_title,
+.dropdown_list li,
+.nav-link {
+  &:focus,
+  &:hover {
+    color: $Almost-Black;
+  }
+}
