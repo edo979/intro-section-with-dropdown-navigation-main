@@ -54,6 +54,7 @@
 
   .nav {
     justify-content: start;
+    align-items: center;
     gap: 60px;
 
     &_open,
@@ -63,8 +64,10 @@
 
     &_list {
       width: 100%;
+
       display: flex;
       justify-content: space-between;
+      align-items: center;
       gap: 45px;
 
       li:nth-child(5) {

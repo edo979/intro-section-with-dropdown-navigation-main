@@ -228,6 +228,12 @@ p {
   font-size: var(--fs-400);
 }
 
+.btn-secondary {
+  padding: 12px 20px;
+  border: 1px solid #141414;
+  line-height: 1;
+}
+
 .container,
 .sm\:container {
   margin-inline: auto;
@@ -297,6 +303,7 @@ p {
 
   .nav {
     justify-content: start;
+    align-items: center;
     gap: 60px;
   }
   .nav_open, .nav_close {
@@ -306,6 +313,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 45px;
   }
   .nav_list li:nth-child(5) {
