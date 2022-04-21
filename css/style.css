@@ -257,7 +257,7 @@ p {
   margin-top: 40px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 890px) {
   :root {
     --fs-300: 0.8rem;
     --fs-400: 0.9rem;
@@ -285,7 +285,7 @@ p {
   }
 
   .intro {
-    margin-top: 65px;
+    margin-top: 75px;
   }
   .intro_img {
     margin: 0;
@@ -299,6 +299,10 @@ p {
   .intro .flex {
     margin-top: 110px;
     margin-bottom: 0;
+  }
+
+  .attribution {
+    margin-top: 60px;
   }
 
   .nav {

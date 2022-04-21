@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 890px) {
   :root {
     --fs-300: 0.8rem;
     --fs-400: 0.9rem;
@@ -29,7 +29,7 @@
   }
 
   .intro {
-    margin-top: 65px;
+    margin-top: 75px;
 
     &_img {
       margin: 0;
@@ -48,6 +48,10 @@
       margin-top: 110px;
       margin-bottom: 0;
     }
+  }
+
+  .attribution {
+    margin-top: 60px;
   }
 
   // Components:
