@@ -255,7 +255,12 @@ p {
   :root {
     --fs-300: 0.8rem;
     --fs-400: 0.9rem;
-    --fs-500: 1.05rem;
+    --fs-500: 1.075rem;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 0.5rem + 4.2vw, 4.6rem);
+    line-height: 1;
   }
 
   .container {
@@ -286,6 +291,7 @@ p {
     align-self: end;
   }
   .intro .flex {
+    margin-top: 110px;
     margin-bottom: 0;
   }
 
@@ -350,6 +356,20 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  .intro_text {
+    padding-inline-start: 40px;
+    text-align: left;
+  }
+  .intro_text > * + * {
+    margin-top: 50px;
+  }
+  .intro_text p {
+    font-size: var(--fs-500);
+  }
+
+  .btn-primary {
+    font-size: var(--fs-500);
   }
 }
 
