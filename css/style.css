@@ -196,6 +196,13 @@ p {
   display: block;
 }
 
+.intro_img {
+  height: max(280px, 70vw);
+  background-image: url(../images/image-hero-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .intro_text {
   text-align: center;
 }
